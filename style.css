@@ -1,0 +1,101 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+}
+.fa-ellipsis-h {
+    float: right;
+    position: relative;
+    top: 40% ;
+    right:5%;
+    font-size: large;
+    scale: 1.5;
+    cursor: pointer;
+}
+.card {
+    border: none;
+}
+.card-body{
+    background-color: #eeeeee;
+    margin: 4px 0px ;
+    border: 1px solid #eeeeee;
+  
+}
+.add-item{
+    padding:1px;
+    margin: 0;
+}
+#inputField{
+    padding:15px;
+    border: none;
+}
+.fa-plus{
+    color: #1c94c4;
+   font-size:35px;
+   text-align: center;
+   padding: 5px 5px ;
+}
+button{
+    border: none;
+}
+.content{
+    padding: 10px;
+}
+.action {
+    display: flex;
+    flex-direction: row-reverse;
+}
+.item {
+    margin: 10px 0;
+    padding: 5px 0 ;
+    background-color: bisque;
+    display: flex;
+}
+.text{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 10px 20px;
+    width: inherit;
+    font-size: 1.2em;
+}
+.status{
+    text-align: center;
+}
+.checkSquare{
+    font-size: 30px;
+    padding: 18px 15px ;
+    cursor: pointer;
+}
+.fa-times-circle-o{
+    font-size: 35px;
+    padding: 20px 10px;
+    cursor: pointer;
+    position: relative;
+    right: 5%;
+}
+.show-n-hide{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.option{
+    background-color: #1c94c4;
+    margin: 0 20px 0;
+    padding: 5px;
+    display: none;
+}
+.option.active {
+    display: block;
+    cursor: pointer;
+}
+.hide{
+    display:none;
+}
+.q-delete{
+    padding: 20px 8px ;
+    background-color: red;
+    margin: 5px;
+    cursor: pointer;
+
+}
